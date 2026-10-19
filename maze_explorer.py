@@ -23,7 +23,8 @@ maze = {
     "Room1": [],
     "Room2": ["Exit"],
     "Trap": [],
-    "Exit": []
+    "Exit": [],
+    "Scerectroom":[]
 }
 
 visited = []
@@ -31,3 +32,4 @@ result = dfs_can_reach(maze, "Entrance", "Exit", visited)
 
 print("Visit order:", visited)
 print("Can reach Exit from Entrance?", result)
+    
