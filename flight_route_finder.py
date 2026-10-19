@@ -47,3 +47,4 @@ route, cost = ucs_cheapest_route(flights, "Islamabad", "Quetta")
 
 print("Cheapest route:", route)
 print("Total ticket cost:", cost)
+print("Cloned repository test completed.")
